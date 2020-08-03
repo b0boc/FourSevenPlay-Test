@@ -9,7 +9,7 @@ gulp: "^4.0.2",
 gulp-rename: "^2.0.0",
 gulp-sass: "^4.1.0"
 
-$ npm install <package> --save-dev
+$ npm install package_name --save-dev
 
 $ gulp scss
 The scss function will watch, convert, and minify the scss
