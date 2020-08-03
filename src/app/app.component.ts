@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
-import { HttpClient } from '@angular/common/http';
 import { HexapiService } from './hexapi.service';
 
 @Component({
