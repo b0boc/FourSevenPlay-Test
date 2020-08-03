@@ -1,5 +1,3 @@
-Please find below the solved test for attention of  Andy Chantrill.
-
 I implemented data type and value checks for the fetched data. In case the API is returning a non hex value the event is displayed in the console.
 
 Angular version: ^9.1.12  
