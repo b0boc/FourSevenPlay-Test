@@ -1,0 +1,3 @@
+<div id="box" *ngIf="showLayout" #boxTag>
+  <div id="ball" (click)="animBall()" [@kicktheball]="{value: step, params: {primaryBg: primaryBg, bg2: bg2, bg3:bg3, bg4:bg4, maxTop:maxTop, maxLeft:maxLeft}}"  #ballTag></div>
+</div>

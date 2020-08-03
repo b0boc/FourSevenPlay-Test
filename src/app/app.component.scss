@@ -1,0 +1,34 @@
+$width:400px;
+$height:200px;
+$ball: $width*0.1; 
+$radius: #{$ball/2};
+
+#box {
+    position:relative;
+    width:$width;
+    min-width:#{$ball*2};
+    height:$height;
+    min-height:#{$ball*2};
+
+    margin:auto; 
+    
+    border:2px solid #000;
+
+    background-color:white;
+    
+    border-radius:$radius;
+}
+
+#ball {
+    position:absolute;
+    top:0px;
+    left:0px;
+
+    max-width:50%;
+    max-height:50%;
+
+    width:$ball;
+    height:$ball; 
+
+    border-radius:50%;
+}
